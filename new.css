@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background:linear-gradient(135deg,#0f0c70,#4e085f);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background:linear-gradient(125deg,#e86c1a,rgb(106, 128, 34));
+    width: 100%;
+    max-width: 550px;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+   
+}
+.container h1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 35px;
+    padding-top: 5px;
+}
+.container h1 img{
+    width: 100px;
+    margin-left: 6px;
+}
+.add-task {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 15px;
+}
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: whitesmoke;
+    padding: 5px;
+    margin: 15px 0;
+    border-radius: 30px;
+    font-weight: 35px;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background:  #0b0202;
+    color: #edeef0;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 25%;
+}
+button:hover{
+    background-color: #f13030;
+}
+.task button {
+    background-color: #0f0101;
+    color: #fff;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.task button:hover {
+    background-color:  #3630f1;
+}
